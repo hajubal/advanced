@@ -1,7 +1,10 @@
 package com.hajubal.advanced.trace;
 
+import org.springframework.context.annotation.Scope;
+
 import java.util.UUID;
 
+@Scope(value = "")
 public class TraceId {
     private String id;
     private int level;
